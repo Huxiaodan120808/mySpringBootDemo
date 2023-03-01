@@ -3,8 +3,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/hxdtest?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8 #设置时区，不然会报错
+#    url: jdbc:mysql://127.0.0.1:3306/hxdtest?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true #设置时区，不然会报错
+    url: jdbc:mysql://43.139.244.252:3306/hxdtest?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true #设置时区，不然会报错
     username: root
+#    password: 120808hxd
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
 
